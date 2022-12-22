@@ -13,7 +13,7 @@ function ToDoForm({addTask})
        e.preventDefault();
        addTask(userInput);
        setUserInput("");
-    }  
+    }    
     return(
         <form onSubmit={handleSubmit}>
             <input value={userInput} type="text" onChange={handleChange} placeholder="Enter a task.."/>

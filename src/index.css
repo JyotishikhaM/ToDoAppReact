@@ -18,3 +18,20 @@ code {
 .todo {
   cursor: pointer;
 }
+table {
+  border: 2px solid forestgreen;
+  width: 500px;
+  height: 100px;
+  justify-content: center; 
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;  
+}
+  
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+}
